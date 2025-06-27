@@ -62,7 +62,7 @@ const PagePlaceholder = ({ title, subtitle }) => {
 
 const HomePage = ({ navigateTo }) => {
     const slides = [
-        { image: "https://images.unsplash.com/photo-1507692049602-4b6f40a9a7a8?q=80&w=2670&auto=format&fit=crop", title: "Welcome Home.", subtitle: "Experience God's presence in a 360-degree atmosphere of vibrant worship, life-changing word, and authentic community." },
+        { image: "https://images.unsplash.com/photo-1507692049602-4b6f40a9a7a8?q=80&w=2670&auto=format&fit=crop", title: "Welcome Home.", subtitle: "Experience God's presence in a 180-degree atmosphere of vibrant worship, life-changing word, and authentic community." },
         { image: "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?q=80&w=2669&auto=format&fit=crop", title: "Find Your People.", subtitle: "We are a family of young believers passionate about Jesus and dedicated to authentic relationships." },
         { image: "https://images.unsplash.com/photo-1533576099719-219a3b23194a?q=80&w=2574&auto=format&fit=crop", title: "Live With Purpose.", subtitle: "Discover your God-given calling and be empowered to make a difference in our world." }
     ];
@@ -113,7 +113,7 @@ const HomePage = ({ navigateTo }) => {
                         </div>
                         <div className="flex items-center gap-3">
                             <i className={`fa-solid fa-location-dot ${COMMON_PALETTE.accentBlueLight}`}></i>
-                            <span>The Youth Place, Lekki Phase 1</span>
+                            <span>14 Gafari Balogun St, Ogudu, Lagos 105102, Lagos, Nigeria</span>
                         </div>
                     </div>
                 </div>
@@ -127,7 +127,7 @@ const AboutPage = () => {
         <div className={`${COMMON_CLASSES.sectionPadding} ${COMMON_PALETTE.primaryBg} ${COMMON_PALETTE.fontBody}`}>
             <div className={`${COMMON_CLASSES.container}`}>
                 <div className="max-w-4xl mx-auto text-center mb-16">
-                    <h1 className={COMMON_CLASSES.headingMain}>About RCCG 360 Degrees Youth Church</h1>
+                    <h1 className={COMMON_CLASSES.headingMain}>About RCCG 180 Degrees Youth Church</h1>
                     <p className={COMMON_CLASSES.headingSub}>Discover the heart and soul behind our dynamic youth church.</p>
                 </div>
 
@@ -138,7 +138,7 @@ const AboutPage = () => {
                             Our vision is to raise a generation of vibrant youth passionately committed to Christ, equipped to fulfill their divine purpose, and impacting their world for God's glory.
                         </p>
                         <p className={`${COMMON_PALETTE.textNormal} leading-relaxed`}>
-                            We are committed to creating an atmosphere where young people experience God's presence in a 360-degree way: through vibrant worship, life-changing Word, and authentic community, empowering them to live a life of purpose and influence.
+                            We are committed to creating an atmosphere where young people experience God's presence in a 180-degree way: through vibrant worship, life-changing Word, and authentic community, empowering them to live a life of purpose and influence.
                         </p>
                     </div>
                     <div className={`${COMMON_CLASSES.card}`}>
@@ -155,7 +155,7 @@ const AboutPage = () => {
                 <div className="mt-16 text-center max-w-3xl mx-auto">
                     <h2 className={`text-3xl font-bold ${COMMON_PALETTE.textDark} mb-6 ${COMMON_PALETTE.fontHeading}`}>Our Story So Far...</h2>
                     <p className={`${COMMON_PALETTE.textNormal}`}>
-                        Founded with a passion to reach young people, RCCG 360 Degrees Youth Church began as a small gathering of enthusiastic believers. Over the years, we have grown into a thriving community, witnessing countless lives transformed by the power of God's Word and the warmth of genuine fellowship. We believe in nurturing young leaders and providing a platform for every individual to grow spiritually, personally, and professionally.
+                        Founded with a passion to reach young people, RCCG 180 Degrees Youth Church began as a small gathering of enthusiastic believers. Over the years, we have grown into a thriving community, witnessing countless lives transformed by the power of God's Word and the warmth of genuine fellowship. We believe in nurturing young leaders and providing a platform for every individual to grow spiritually, personally, and professionally.
                     </p>
                 </div>
             </div>
@@ -197,9 +197,9 @@ const GroupsMinistriesPage = ({ navigateTo }) => {
                 </div>
 
                 <section className="mb-20">
-                    <h2 className={`text-3xl font-bold ${COMMON_PALETTE.accentBlueMedium} text-center mb-10 ${COMMON_PALETTE.fontHeading}`}>The 360DYC Tribal System</h2>
+                    <h2 className={`text-3xl font-bold ${COMMON_PALETTE.accentBlueMedium} text-center mb-10 ${COMMON_PALETTE.fontHeading}`}>The 180DYC Tribal System</h2>
                     <p className={`text-center ${COMMON_PALETTE.textNormal} max-w-3xl mx-auto mb-12`}>
-                        At 360DYC, we believe in fostering deep connections and spiritual growth through our unique Tribal System. Every member belongs to a tribe based on their birth month, creating a close-knit family within the larger church body. Your tribe is your first point of contact for fellowship, support, and collaborative service.
+                        At 180DYC, we believe in fostering deep connections and spiritual growth through our unique Tribal System. Every member belongs to a tribe based on their birth month, creating a close-knit family within the larger church body. Your tribe is your first point of contact for fellowship, support, and collaborative service.
                     </p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
                         {tribes.map((tribe, index) => (
@@ -245,7 +245,7 @@ const ImNewPage = ({ navigateTo }) => {
         <div className={`${COMMON_CLASSES.sectionPadding} ${COMMON_PALETTE.primaryBg} ${COMMON_PALETTE.fontBody}`}>
             <div className={`${COMMON_CLASSES.container}`}>
                 <div className="max-w-4xl mx-auto text-center mb-16">
-                    <h1 className={COMMON_CLASSES.headingMain}>Welcome to RCCG 360 Degrees Youth Church!</h1>
+                    <h1 className={COMMON_CLASSES.headingMain}>Welcome to RCCG 180 Degrees Youth Church!</h1>
                     <p className={COMMON_CLASSES.headingSub}>We're so glad you're here. This page is designed to help you get acquainted with our church family.</p>
                 </div>
 
@@ -316,7 +316,7 @@ const EventsPage = () => {
             title: "Youth Summit 2025",
             date: "August 15-17, 2025",
             time: "9:00 AM - 5:00 PM Daily",
-            location: "The Youth Place, Lekki Phase 1",
+            location: "14 Gafari Balogun St, Ogudu, Lagos 105102, Lagos, Nigeria",
             description: "A transformative gathering for young people, featuring inspiring speakers, workshops, and electrifying praise and worship sessions. Don't miss out!",
             imageUrl: "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?q=80&w=2670&auto=format&fit=crop",
         },
@@ -473,7 +473,7 @@ const FaqPage = () => {
         },
         {
             question: "Do you have programs for children or teenagers?",
-            answer: "While 360 Degrees Youth Church primarily caters to young adults, our parent church (RCCG The Youth Place) has dedicated children's church and teenage ministries. Please ask one of our ushers for more details."
+            answer: "While 180 Degrees Youth Church primarily caters to young adults, our parent church (RCCG The Youth Place) has dedicated children's church and teenage ministries. Please ask one of our ushers for more details."
         },
         {
             question: "How can I join a small group or ministry?",
@@ -538,7 +538,7 @@ const ContactPage = () => {
                         <div className={`space-y-6 ${COMMON_PALETTE.textNormal}`}>
                             <p className="flex items-center gap-3">
                                 <i className={`fa-solid fa-location-dot ${COMMON_PALETTE.accentBlueLight} text-2xl w-6 text-center`}></i>
-                                <div><strong className={COMMON_PALETTE.textDark}>Location:</strong><br/>The Youth Place, Lekki Phase 1, Lagos, Nigeria</div>
+                                <div><strong className={COMMON_PALETTE.textDark}>Location:</strong><br/>14 Gafari Balogun St, Ogudu, Lagos 105102, Lagos, Nigeria</div>
                             </p>
                             <p className="flex items-center gap-3">
                                 <i className={`fa-solid fa-phone ${COMMON_PALETTE.accentBlueLight} text-2xl w-6 text-center`}></i>
@@ -546,7 +546,7 @@ const ContactPage = () => {
                             </p>
                             <p className="flex items-center gap-3">
                                 <i className={`fa-solid fa-envelope ${COMMON_PALETTE.accentBlueLight} text-2xl w-6 text-center`}></i>
-                                <div><strong className={COMMON_PALETTE.textDark}>Email:</strong><br/>info@rccg360dyc.org</div>
+                                <div><strong className={COMMON_PALETTE.textDark}>Email:</strong><br/>info@rccg180dyc.org</div>
                             </p>
                             <div className="mt-8">
                                 <h3 className={`text-xl font-bold ${COMMON_PALETTE.textDark} mb-4 ${COMMON_PALETTE.fontHeading}`}>Follow Us</h3>
@@ -626,7 +626,7 @@ const GivePage = () => {
                     <div className={`${COMMON_CLASSES.card} ${COMMON_PALETTE.shadowLg}`}>
                         <h2 className={`text-3xl font-bold ${COMMON_PALETTE.accentBlueMedium} mb-6 ${COMMON_PALETTE.fontHeading}`}>Why Your Giving Matters</h2>
                         <p className={`${COMMON_PALETTE.textNormal} leading-relaxed mb-4`}>
-                            At RCCG 360 Degrees Youth Church, every seed sown empowers us to spread the gospel, nurture young believers, and serve our community. Your tithes, offerings, and donations directly fuel our ministries, outreach programs, and facility enhancements.
+                            At RCCG 180 Degrees Youth Church, every seed sown empowers us to spread the gospel, nurture young believers, and serve our community. Your tithes, offerings, and donations directly fuel our ministries, outreach programs, and facility enhancements.
                         </p>
                         <p className={`${COMMON_PALETTE.textNormal} leading-relaxed`}>
                             Through your partnership, we can continue to create a vibrant environment for spiritual growth, organize impactful events, and extend a helping hand to those in need. Thank you for your obedience and faith!
@@ -643,21 +643,21 @@ const GivePage = () => {
                                         <div className="flex justify-between items-center bg-stone-50 p-3 rounded-lg border border-stone-200">
                                             <div>
                                                 <p className="text-sm"><strong>Bank:</strong> Zenith Bank</p>
-                                                <p className="text-sm"><strong>Acct Name:</strong> RCCG 360 Youth Church</p>
+                                                <p className="text-sm"><strong>Acct Name:</strong> RCCG 180 Youth Church</p>
                                                 <p className="text-lg font-bold">1234567890 <button onClick={() => copyToClipboard('1234567890')} className="ml-2 text-indigo-600 hover:text-indigo-800 text-base"><i className="fa-solid fa-copy"></i></button></p>
                                             </div>
                                         </div>
                                         <div className="flex justify-between items-center bg-stone-50 p-3 rounded-lg border border-stone-200">
                                             <div>
                                                 <p className="text-sm"><strong>Bank:</strong> GTBank</p>
-                                                <p className="text-sm"><strong>Acct Name:</strong> RCCG 360 Youth Church</p>
+                                                <p className="text-sm"><strong>Acct Name:</strong> RCCG 180 Youth Church</p>
                                                 <p className="text-lg font-bold">0987654321 <button onClick={() => copyToClipboard('0987654321')} className="ml-2 text-indigo-600 hover:text-indigo-800 text-base"><i className="fa-solid fa-copy"></i></button></p>
                                             </div>
                                         </div>
                                         <div className="flex justify-between items-center bg-stone-50 p-3 rounded-lg border border-stone-200">
                                             <div>
                                                 <p className="text-sm"><strong>Bank:</strong> Access Bank</p>
-                                                <p className="text-sm"><strong>Acct Name:</strong> RCCG 360 Youth Church</p>
+                                                <p className="text-sm"><strong>Acct Name:</strong> RCCG 180 Youth Church</p>
                                                 <p className="text-lg font-bold">1122334455 <button onClick={() => copyToClipboard('1122334455')} className="ml-2 text-indigo-600 hover:text-indigo-800 text-base"><i className="fa-solid fa-copy"></i></button></p>
                                             </div>
                                         </div>
@@ -672,7 +672,7 @@ const GivePage = () => {
                                         <div className="flex justify-between items-center bg-stone-50 p-3 rounded-lg border border-stone-200">
                                             <div>
                                                 <p className="text-sm"><strong>Bank:</strong> Citibank</p>
-                                                <p className="text-sm"><strong>Acct Name:</strong> RCCG 360 Youth Church</p>
+                                                <p className="text-sm"><strong>Acct Name:</strong> RCCG 180 Youth Church</p>
                                                 <p className="text-lg font-bold">9876543210 <button onClick={() => copyToClipboard('9876543210')} className="ml-2 text-indigo-600 hover:text-indigo-800 text-base"><i className="fa-solid fa-copy"></i></button></p>
                                                 <p className="text-sm mt-1"><strong>SWIFT/BIC:</strong> CITIUS33</p>
                                             </div>
@@ -944,7 +944,7 @@ export default function App() {
                 <div className={`${COMMON_CLASSES.container}`}>
                     <div className="flex items-center justify-between h-20">
                         <a href="#home" onClick={() => navigateTo('/')} className="flex items-center space-x-2">
-                            <img src="https://res.cloudinary.com/dph4emzfu/image/upload/v1751022640/rccg_logo_tosbsv.jpg" alt="RCCG 360 Logo" className="h-14 sm:h-16 object-contain"></img>
+                            <img src="https://res.cloudinary.com/dph4emzfu/image/upload/v1751022640/rccg_logo_tosbsv.jpg" alt="RCCG 180 Logo" className="h-14 sm:h-16 object-contain"></img>
                         </a>
                         
                         <nav className="hidden lg:flex items-center space-x-2">
@@ -1054,7 +1054,7 @@ export default function App() {
                 <div className={`${COMMON_CLASSES.container} py-12`}>
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left ${COMMON_PALETTE.textNormal}">
                         <div>
-                            <h3 className={`text-xl font-bold ${COMMON_PALETTE.textDark} mb-4 ${COMMON_PALETTE.fontHeading}`}>360° DYC</h3>
+                            <h3 className={`text-xl font-bold ${COMMON_PALETTE.textDark} mb-4 ${COMMON_PALETTE.fontHeading}`}>180° DYC</h3>
                             <p className={`${COMMON_PALETTE.textLight} text-sm`}>A full-circle experience of God's love, power, and purpose.</p>
                         </div>
                         <div>
@@ -1083,11 +1083,11 @@ export default function App() {
                                 <a href="#" className={`${COMMON_PALETTE.textLight} hover:${COMMON_PALETTE.accentBlueMedium} ${COMMON_PALETTE.transition}`}><i className="fa-brands fa-youtube text-2xl"></i></a>
                             </div>
                             <p className={`${COMMON_PALETTE.textLight} text-sm`}><strong className={COMMON_PALETTE.textDark}>Service:</strong> Sundays, 10:00 AM</p>
-                            <p className={`${COMMON_PALETTE.textLight} text-sm`}><strong className={COMMON_PALETTE.textDark}>Location:</strong> The Youth Place, Lekki Phase 1</p>
+                            <p className={`${COMMON_PALETTE.textLight} text-sm`}><strong className={COMMON_PALETTE.textDark}>Location:</strong> 14 Gafari Balogun St, Ogudu, Lagos 105102, Lagos, Nigeria</p>
                         </div>
                     </div>
                     <div className={`mt-12 pt-8 border-t ${COMMON_PALETTE.border} text-center ${COMMON_PALETTE.textLight} text-sm`}>
-                        <p>© {new Date().getFullYear()} RCCG 360 Degrees Youth Church. All Rights Reserved.</p>
+                        <p>© {new Date().getFullYear()} RCCG 180 Degrees Youth Church. All Rights Reserved.</p>
                     </div>
                 </div>
             </footer>
